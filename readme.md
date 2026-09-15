@@ -1,5 +1,7 @@
 ### 使用本地模型翻译候选词(comment_font)
 
+![img/20260915_234312.png](img/20260915_234312.png)
+
 - 使用,在你的方案 default.custom.yaml(ice是: rime_ice.schema.yaml) 中添加：
 
 ```shell
