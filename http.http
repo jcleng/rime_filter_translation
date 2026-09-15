@@ -1,0 +1,12 @@
+#### LibreTranslate 本地模型
+POST http://127.0.0.1:5000/translate
+Content-Type: application/json
+
+{
+        "q": "hello world!",
+		"source": "auto",
+		"target": "zh",
+		"format": "text",
+		"alternatives": 3,
+		"api_key": ""
+}
