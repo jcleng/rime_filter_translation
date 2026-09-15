@@ -5,6 +5,7 @@
 - 使用
 
 ```shell
+# 需要先部署LibreTranslate到本地
 # translation_filter.lua放到rime/lua/目录下
 /bin/cp -rf ./translation_filter.lua ~/.local/share/fcitx5/rime/lua/
 ```
