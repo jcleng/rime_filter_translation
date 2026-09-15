@@ -2,7 +2,7 @@
 
 ![img/20260915_234312.png](img/20260915_234312.png)
 
-- 使用,在你的方案 default.custom.yaml(ice是: rime_ice.schema.yaml) 中添加：
+- 使用
 
 ```shell
 # translation_filter.lua放到rime/lua/目录下
@@ -15,7 +15,7 @@ translation_filter = require("translation_filter")
 ```
 
 ```yaml
-# 配置生效使用
+# default.custom.yaml(ice是: rime_ice.schema.yaml) 中配置生效使用
 engine:
   filters:
     - lua_filter@translation_filter
