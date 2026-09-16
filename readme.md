@@ -6,6 +6,7 @@
 
 ```shell
 # 需要先部署LibreTranslate到本地
+# 注意使用了curl命令Windows不支持会导致界面卡死
 # translation_filter.lua放到rime/lua/目录下
 /bin/cp -rf ./translation_filter.lua ~/.local/share/fcitx5/rime/lua/
 ```
